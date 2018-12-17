@@ -1,4 +1,4 @@
-FROM php:fpm-alpine
+FROM php:7.1-fpm-alpine
 ARG VCS_REF
 LABEL org.label-schema.vcs-ref=$VCS_REF \
 	  org.label-schema.vcs-url="https://github.com/vm-nayls/php"
